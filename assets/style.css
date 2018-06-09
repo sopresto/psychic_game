@@ -1,0 +1,12 @@
+#first {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    rotate: 20;
+}
+
+body {
+    background-color: bisque;
+
+}

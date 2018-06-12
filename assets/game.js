@@ -2,37 +2,6 @@
 
 
 
-
-// var letters = 'hello'.split('');
-// var wins = 0;
-// var losses = 0;
-// var guesses = [];
-// var guessesLeft = 10;
-
-// var computerGuess = letters[Math.floor(Math.random() * letters.length)];
-// var addPoints = document.querySelector("#wins").innerHTML= wins;
-// var lives = document.querySelector("#guessesleft").innerHTML = guessesLeft;
-// var losePoints = document.querySelector("#losses").innerHTML = losses;
-// var lettersUsed = document.querySelector("#letters").innerHTML = guesses;
-
-// function updateDisplays() {
-//     document.querySelector("#wins").innerHTML= wins;
-//     document.querySelector("#guessesleft").innerHTML = guessesLeft;
-//     document.querySelector("#losses").innerHTML = losses;
-//     document.querySelector("#letters").innerHTML = guesses;
-
-//   }
-
-// function updateDisplays() {
-//     addPoints.textContent = wins;
-//     lettersUsed.textContent = guesses;
-//     losePoints.textContent = losses;
-//   }
-
-//   document.onkeyup = updateDisplays;
-
-
-
 var letters = "hello".split("");
 var wins = 0;
 var losses = 0;

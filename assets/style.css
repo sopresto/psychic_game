@@ -1,3 +1,26 @@
+.col {
+    font-size: 25px;
+    color: white;
+   
+}
+
+#wrapper {
+    width: 1000px;
+    height: 700px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+    height: 100px;
+    
+}
+
+
 #first {
     text-align: center;
     color: black;
@@ -7,6 +30,13 @@
 }
 
 body {
-    background-color: bisque;
+
+    background-image: url("https://www.ayurvedichealing.net/wp-content/uploads/2014/08/Services-Astrology.jpg")
 
 }
+
+.card {
+    float: center;
+    margin-top: 20px;
+}
+

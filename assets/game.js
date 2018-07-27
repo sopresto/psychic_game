@@ -25,7 +25,7 @@ document.onkeyup = function(event) {
   userGuessSoFar.push(userGuess);
   guessSoFar.innerHTML = userGuessSoFar;
 
-  if (userGuess == computerGuess) {
+  if (userGuess === computerGuess) {
 
     wins++;
     guesses = 6;
@@ -36,10 +36,11 @@ document.onkeyup = function(event) {
 
     guesses--;
 
-    if (guesses == 0) {
+    if (guesses === 0) {
       losses++;
       userGuessSoFar = [];
       guesses = 6;
+      computerGuess = letters[Math.floor(Math.random() * letters.length)];
     }
 
   }
